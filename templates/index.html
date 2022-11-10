@@ -1,0 +1,32 @@
+<HTML>
+    <head>
+     <title> Sveiki </title>
+     <link href = "{{ url_for('static', filename='smukums.css') }}" ref = "stylesheet"> 
+    </head>
+   
+    <body onload="lasi()">
+        <a href="/tests">tests</a>
+        <a hreg = "/"></a>
+
+
+
+
+        <p>Labdien</p>
+        {% block saturs %}
+        {% endblock %}
+        Visu ko gribam
+
+        
+    
+   
+
+
+    <script src = "{{ url_for('static', filename='funkcija.js') }}"> 
+    </script>
+        <button onclick="funkcija()">Click</button>
+   
+   
+    </body>
+    
+   
+   </HTML>
